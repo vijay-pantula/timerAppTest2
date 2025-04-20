@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Timer App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Main container for the Timer App -->
+  <div class="container">
+    <h1>Timer App</h1>
+    <!-- Display for the timer countdown -->
+    <div class="timer-display" id="timer-display">00:00:00</div>
+    <!-- Mode selection buttons -->
+    <div class="modes">
+      <button class="mode-btn active" data-time="1500" id="pomodoro-btn">Pomodoro (25 min)</button>
+      <button class="mode-btn" data-time="300" id="short-break-btn">Short Break (5 min)</button>
+      <button class="mode-btn" data-time="900" id="long-break-btn">Long Break (15 min)</button>
+    </div>
+    <!-- Control buttons for timer -->
+    <div class="controls">
+      <button id="start-btn">Start</button>
+      <button id="pause-btn" disabled>Pause</button>
+      <button id="stop-btn" disabled>Stop</button>
+      <button id="reset-btn" disabled>Reset</button>
+    </div>
+    <!-- Alarm sound played when timer ends -->
+    <audio id="alarm-audio" src="https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg" preload="auto"></audio>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
