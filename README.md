@@ -27,10 +27,6 @@ This is a simple Timer App implementing the Pomodoro technique with three modes:
 - `styles.css`: Contains the styling and responsive design.
 - `script.js`: Contains the JavaScript logic for timer functionality.
 
-## Publishing
-
-You can publish this app on GitHub Pages, Netlify, or Vercel by uploading these files to your repository or project.
-
 ## License
 
 This project is open source and free to use.
